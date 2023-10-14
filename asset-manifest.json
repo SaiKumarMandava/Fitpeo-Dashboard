@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Fitpeo-Dashboard/static/css/main.1ed07a1e.css",
+    "main.js": "/Fitpeo-Dashboard/static/js/main.7d50fbb5.js",
+    "static/js/787.446a2371.chunk.js": "/Fitpeo-Dashboard/static/js/787.446a2371.chunk.js",
+    "static/media/product1.jpg": "/Fitpeo-Dashboard/static/media/product1.cb380f77035d5478d64c.jpg",
+    "static/media/product4.jpeg": "/Fitpeo-Dashboard/static/media/product4.55091461ae682df709e2.jpeg",
+    "static/media/product5.jpg": "/Fitpeo-Dashboard/static/media/product5.588d9f29f5d4895689d8.jpg",
+    "static/media/product3.jpg": "/Fitpeo-Dashboard/static/media/product3.063cd3c88bceedc51dee.jpg",
+    "static/media/product6.jpg": "/Fitpeo-Dashboard/static/media/product6.ff5db7550c483c59df09.jpg",
+    "static/media/saving.png": "/Fitpeo-Dashboard/static/media/saving.e2c5c5a1855541468d46.png",
+    "static/media/scale.png": "/Fitpeo-Dashboard/static/media/scale.50536c91d62a628d317d.png",
+    "static/media/interest.png": "/Fitpeo-Dashboard/static/media/interest.bbb0e73d82e306bf128c.png",
+    "static/media/shopping-bag.png": "/Fitpeo-Dashboard/static/media/shopping-bag.cd6f2346f866dd10dfee.png",
+    "index.html": "/Fitpeo-Dashboard/index.html",
+    "static/media/search.svg": "/Fitpeo-Dashboard/static/media/search.44144c63f1114bd73433.svg",
+    "main.1ed07a1e.css.map": "/Fitpeo-Dashboard/static/css/main.1ed07a1e.css.map",
+    "main.7d50fbb5.js.map": "/Fitpeo-Dashboard/static/js/main.7d50fbb5.js.map",
+    "787.446a2371.chunk.js.map": "/Fitpeo-Dashboard/static/js/787.446a2371.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1ed07a1e.css",
+    "static/js/main.7d50fbb5.js"
+  ]
+}
