@@ -1,0 +1,324 @@
+*{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+}
+.container{
+    display:flex;
+    background-color: #e9e7e7bb;
+    width: 100%;
+    background-position: cover;
+}
+main{
+  
+    padding: 20px;
+}
+.sidebar{
+    background: #2c0151;
+    color: #fff;
+    height: 200vh;
+    width: 200px;
+    transition: all 0.5s;
+}
+.top_section{
+    display: flex;
+    align-items:center;
+    padding:20px 15px;
+}
+.logo{
+    font-size: 30px;
+}
+.bars{
+    display: flex;
+    font-size: 25px;
+    margin-left: 50px;
+}
+.link{
+    display: flex;
+    color: #fff;
+    padding: 10px 15px;
+    gap: 15px;
+    transition: all 0.5s;
+}
+.link:hover{
+    background:lightskyblue;
+    color: #000;
+    transition: all 0.5s;
+}
+.active{
+    background: rgba(44, 109, 240, 0.479);
+    color: #f8f6f6;
+}
+.icon, .link_text{
+    font-size: 20px;
+}
+
+input.search {
+    width: 150px;
+    border: 1px solid #fdfdfd;
+    border-radius: 3px 3px 3px 3px;
+    display: block;
+    padding: 9px 4px 9px 40px;
+    background: transparent url("./assets/search.svg") no-repeat 7px;
+    background-size: 30px;
+    outline: none;
+    background-color: #fff;
+    
+    
+}
+.card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 29.5px;
+  margin: 10px;
+  width: 235px;
+  background-color: #fdfdfd;
+  display: inline-block;
+ 
+  text-align: center;
+   
+
+  }
+  .card1 {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 28px;
+    margin: 10px;
+    width: 650px;
+    
+    background-color: #fdfdfd;
+    display: inline-block;
+   
+    text-align: center;
+   
+
+  }
+  .card3 {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 28px;
+    margin: 10px;
+    width: 1190px;
+    background-color: #fdfdfd;
+    display: inline-block;
+   
+    text-align: center;
+   
+
+  }
+  .card2 {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 28px;
+    margin: 10px;
+    width: 460px;
+    background-color: #fdfdfd;
+    display: inline-block;
+    
+    
+   
+   
+   
+
+  }
+  #chart-container {
+    position: relative;
+  }
+  
+  #center-text {
+    position: absolute;
+    top: 58%; 
+    left: 58%; 
+    transform: translate(-50%, -50%);
+    font-size: 20px; 
+    color: #333; 
+  }
+  
+
+  .card h2 {
+    font-size: 24px;
+    margin: 0;
+  }
+
+  .card p {
+    font-size: 18px;
+    margin: 0;
+  }
+
+  .card img {
+    
+    height: auto;
+  }
+
+  .arrow {
+    display: inline-block;
+    font-size: 13px;
+    vertical-align: middle;
+    font-weight: bold;
+  }
+
+  .up-arrow {
+    color: rgb(1, 137, 1);
+  }
+
+  .down-arrow {
+    color: red;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropbtn {
+  background-color: #3498db;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  width:180px;
+  border-radius: 6px 6px 6px 6px;
+  
+}
+.user-image {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+ 
+
+
+
+
+
+
+
+
+
+   
+/* Mobile Devices */
+@media all and (min-width: 768px) and (max-width: 1024px)  {
+  /* .container {
+      flex-direction: row;
+      width: fit-content;
+
+  } */
+
+  .sidebar {
+      width: 100%;
+      height: auto;
+  }
+
+  .bars {
+      margin-left: 10px;
+  }
+
+  .link {
+      padding: 10px 5px;
+  }
+
+  .logo {
+      font-size: 24px;
+  }
+  .card{
+    width: 100%;
+  }
+  .card1{
+    width: 100%;
+    height: 100;
+  }
+  .card2{
+    width: 100%;
+  }
+  .card3{
+    width: 90%;
+  }
+  
+}
+
+/* Tablets */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .sidebar {
+      width: 150px;
+  }
+ 
+}
+
+/* Large Screens */
+@media screen and (min-width:320PX)AND (max-width: 768px) {
+  .container {
+      width: fit-content;
+      background-color: #ddd;
+  }
+  .DASHB{
+    WIDTH:200PX;
+  }
+
+  .sidebar {
+      width: 50px;
+  }
+  .card{
+
+   
+    width: 280px;
+  }
+  .card1{
+    width: 80%;
+    font-size: small;
+  }
+  .card2{
+    width: 90%;
+    font-size: small;
+    margin: auto;
+    padding: 1rem;
+  }
+  .topBar{
+   font-size: 10px;
+   width:30vw;
+  }
+  table {
+    width: 20%;
+    border-collapse: collapse;
+}
+th, td {
+  padding: 2px;
+  text-align: left;
+  border-bottom: 1px solid #0c0c0c;
+}
+th{
+  display: flex;
+  flex-direction: column;
+  
+}
+.tablerow{
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid #0a0a0a;
+}
+.tableData{
+  flex-direction: column;
+}
+.card3{
+  width: 80%;
+}
+.tableHeader{
+  flex-direction: column;
+
+}
+.tableDPWN{
+  width:200px;
+}
+
+  
+}
